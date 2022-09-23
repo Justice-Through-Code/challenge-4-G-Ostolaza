@@ -27,7 +27,7 @@ def box_office_data():
     # NOTE: make sure that the commas that separate the titles in the string don't stay in the titles in the list!
     # Print out the `type` of your new variable, then in a separate print statement, the number of items in it (should be 50).
     # removing commas and whitespace from string to create a new list of elements with string indices
-    remaining_50_list = [comma.strip() for comma in movies_str.split(',')]
+    remaining_50_list = movies_str.split(',')
     # remaining_50_list = movies_str.split(',')
     print(type(remaining_50_list))
     print(len(remaining_50_list))
